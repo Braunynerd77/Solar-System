@@ -12,11 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf0ef91efa296423fbbde98ce5af19ba, type: 3}
   m_Name: Shape
   m_EditorClassIdentifier: 
+  randomize: 0
   seed: 7
   heightMapCompute: {fileID: 7200000, guid: 1c8bff6c5dfd7461f8403bd2cef35625, type: 3}
   perturbVertices: 1
   perturbCompute: {fileID: 7200000, guid: 0cc4782d709194aa5a22ed5e9ab8bf09, type: 3}
-  perturbStrength: 0.6
+  perturbStrength: 1
   craterSettings:
     enabled: 1
     craterSeed: 17809
@@ -959,7 +960,7 @@ MonoBehaviour:
       size: 0.04367399
       floorHeight: -1.1006722
       smoothness: 1.2052912
-    - centre: {x: -0.774307, y: -0.61119443, z: 0.16398156}
+    - centre: {x: -0.77430695, y: -0.61119443, z: 0.16398156}
       size: 0.027659984
       floorHeight: -1.1354978
       smoothness: 1.2490627

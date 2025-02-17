@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83a436a8ab50b445abf81aaf5383b802, type: 3}
   m_Name: Shading
   m_EditorClassIdentifier: 
-  randomize: 0
-  seed: 10
+  randomize: 1
+  seed: 8106
   terrainMaterial: {fileID: 2100000, guid: a306285242da94fd09ea55b1d7bcac09, type: 2}
   hasAtmosphere: 1
   atmosphereSettings: {fileID: 11400000, guid: 7cf94c475856943c6967dd4a2f16d7d1, type: 2}
@@ -30,13 +30,13 @@ MonoBehaviour:
     steepColA: {r: 0.50084054, g: 0.19624422, b: 0.8490566, a: 0}
     steepColB: {r: 1, g: 1, b: 1, a: 0}
   randomizedCols:
-    shoreCol: {r: 0, g: 0, b: 0, a: 0}
-    flatColA1: {r: 0, g: 0, b: 0, a: 0}
-    flatColA2: {r: 0, g: 0, b: 0, a: 0}
-    flatColB1: {r: 0, g: 0, b: 0, a: 0}
-    flatColB2: {r: 0, g: 0, b: 0, a: 0}
-    steepColA: {r: 0, g: 0, b: 0, a: 0}
-    steepColB: {r: 0, g: 0, b: 0, a: 0}
+    shoreCol: {r: 0.4182588, g: 0.69579136, b: 0.7058694, a: 1}
+    flatColA1: {r: 0.25411445, g: 0.40985015, b: 0.8, a: 1}
+    flatColA2: {r: 0.16154738, g: 0.09160431, b: 0.45802158, a: 1}
+    flatColB1: {r: 0.69178975, g: 0.45084497, b: 0.8, a: 1}
+    flatColB2: {r: 0.16, g: 0.7871474, b: 0.8, a: 1}
+    steepColA: {r: 0.3070742, g: 0.1997374, b: 0.30904853, a: 1}
+    steepColB: {r: 0.16193534, g: 0.16, b: 0.2, a: 1}
   detailWarpNoise:
     numLayers: 4
     lacunarity: 2
